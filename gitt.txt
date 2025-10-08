@@ -1,0 +1,34 @@
+1. Git Setup (Sirf pehli baar karna hota hai)
+
+git config --global user.name "DeckdeSam"
+git config --global user.email "your-email@example.com"
+
+
+git clone https://github.com/DeckdeSam/Learning-.git
+
+
+Repo Folder ke Andar Jaana
+cd Learning-
+
+
+4. Nayi File Banana (e.g., Python file)
+touch hello.py                  # File banayi
+echo "print('Hello World')" > hello.py  # File mein content daala
+
+🧾 5. Git Status Check Karna (Kaunse file change hui hai)
+git status
+
+➕ 6. File ko Git mein Add Karna
+git add hello.py                # Ek file add karne ke liye
+# ya sab kuch add karne ke liye:
+git add .
+
+📝 7. Commit Karna (Change save karna local repo mein)
+git commit -m "Added hello.py file"
+
+🚀 8. Push Karna (Change bhejna GitHub pe)
+git push origin main
+
+🔁 Kabhi main ke jagah master ho sakta hai, check karne ke liye:
+
+git branch
